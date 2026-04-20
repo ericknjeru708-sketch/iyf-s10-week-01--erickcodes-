@@ -12,6 +12,14 @@
         nav a:hover, nav a.active { color: #00ff9d; text-decoration: underline; }
         .hero { text-align: center; padding: 6rem 1rem; background: linear-gradient(#16213e, #1a1a2e); color: white; }
         main { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+        .profile-img { 
+            width: 280px; 
+            height: 280px; 
+            border-radius: 50%; 
+            border: 6px solid #00ff9d; 
+            margin: 2rem 0;
+            object-fit: cover;
+        }
     </style>
 </head>
 <body>
@@ -27,6 +35,12 @@
     <header class="hero">
         <h1>Erick Njeru</h1>
         <p>Aspiring Web Developer from Nairobi, Kenya</p>
+        
+        <!-- Profile Picture -->
+        <img src="https://via.placeholder.com/280x280/1a1a2e/ffffff?text=Erick+Njeru" 
+             alt="Erick Njeru - Web Developer portrait" 
+             class="profile-img">
+        
         <a href="about.html" style="background:#00ff9d; color:#1a1a2e; padding:12px 30px; border-radius:6px; text-decoration:none; font-weight:bold; display:inline-block; margin-top:20px;">Learn More About Me</a>
     </header>
 
@@ -34,10 +48,6 @@
         <h2>Welcome to My Portfolio</h2>
         <p>This is my Week 1 project for IYF Weekend Academy Season 10.</p>
         
-        <img src="https://via.placeholder.com/600x400/1a1a2e/ffffff?text=Erick+Njeru" 
-             alt="Erick Njeru profile picture" 
-             style="max-width:100%; border-radius:8px; margin:2rem 0;">
-
         <h3>My Hobbies</h3>
         <ul>
             <li>Coding and building websites</li>
@@ -47,4 +57,3 @@
     </main>
 </body>
 </html>
-
