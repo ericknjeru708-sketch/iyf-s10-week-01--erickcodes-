@@ -40,24 +40,89 @@
         <h1>My Projects</h1>
         
         <div class="project-card">
-            <img src="https://via.placeholder.com/600x300/1a1a2e/ffffff?text=Portfolio+Website" 
+            <img src="https://picsum.photos/id/1015/600/300" 
                  alt="Personal Portfolio Website" class="project-img">
             <h2>Personal Portfolio</h2>
             <p>This multi-page portfolio built with semantic HTML and accessibility in mind for IYF Week 1.</p>
         </div>
 
         <div class="project-card">
-            <img src="https://via.placeholder.com/600x300/16213e/ffffff?text=Coming+Soon" 
-                 alt="Project 2 - Coming Soon" class="project-img">
-            <h2>Project 2 - Coming Soon</h2>
-            <p>A modern landing page concept (to be built in future weeks).</p>
+            <img src="https://picsum.photos/id/201/600/300" 
+                 alt="Landing Page Concept" class="project-img">
+            <h2>Landing Page Concept</h2>
+            <p>A modern landing page design (to be expanded in future weeks).</p>
         </div>
 
         <div class="project-card">
-            <img src="https://via.placeholder.com/600x300/0f3460/ffffff?text=Blog+Layout" 
-                 alt="Simple Blog Layout" class="project-img">
+            <img src="https://picsum.photos/id/237/600/300" 
+                 alt="Blog Layout" class="project-img">
             <h2>Blog Layout</h2>
-            <p>A clean blog post layout using semantic HTML and proper headings.</p>
+            <p>A clean blog post layout using semantic HTML.</p>
+        </div>
+    </main>
+</body>
+</html>
+EOFcat > projects.html << 'EOF'
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Projects - Erick Njeru</title>
+    <style>
+        body { font-family: system-ui, sans-serif; margin: 0; line-height: 1.6; color: #333; }
+        nav { background: #1a1a2e; padding: 1rem 0; }
+        nav ul { list-style: none; display: flex; justify-content: center; gap: 2.5rem; }
+        nav a { color: white; text-decoration: none; font-weight: 500; }
+        nav a:hover, nav a.active { color: #00ff9d; }
+        main { max-width: 900px; margin: 2rem auto; padding: 0 1.5rem; }
+        .project-card { 
+            border: 1px solid #ddd; 
+            padding: 1.5rem; 
+            margin: 1.5rem 0; 
+            border-radius: 8px; 
+        }
+        .project-img { 
+            width: 100%; 
+            height: 220px; 
+            object-fit: cover; 
+            border-radius: 6px; 
+            margin-bottom: 1rem;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="projects.html" class="active">Projects</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <h1>My Projects</h1>
+        
+        <div class="project-card">
+            <img src="https://picsum.photos/id/1015/600/300" 
+                 alt="Personal Portfolio Website" class="project-img">
+            <h2>Personal Portfolio</h2>
+            <p>This multi-page portfolio built with semantic HTML and accessibility in mind for IYF Week 1.</p>
+        </div>
+
+        <div class="project-card">
+            <img src="https://picsum.photos/id/201/600/300" 
+                 alt="Landing Page Concept" class="project-img">
+            <h2>Landing Page Concept</h2>
+            <p>A modern landing page design (to be expanded in future weeks).</p>
+        </div>
+
+        <div class="project-card">
+            <img src="https://picsum.photos/id/237/600/300" 
+                 alt="Blog Layout" class="project-img">
+            <h2>Blog Layout</h2>
+            <p>A clean blog post layout using semantic HTML.</p>
         </div>
     </main>
 </body>
